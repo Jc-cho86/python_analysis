@@ -15,3 +15,11 @@ import pandas as pd
 # print("=================")
 # # print(data['name'])
 # print(data.iloc[1])
+
+
+data={"姓名":["小明","曉華","小美"],
+      "年齡":[20,22,21],
+      "分數":[85,90,88]
+}
+df=pd.DataFrame(data)
+print(df)
